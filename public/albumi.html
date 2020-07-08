@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="albumi.css">
+        <title>Albumi</title>
+    </head>
+    <body>
+        <div class="albums-page" style="display: block;">
+            <div class="header albums">
+                <div class="header-title albums">Foto albumi familije Marković</div>
+                <div class="view-buttons albums">
+                    <div class="column-view albums">
+                        <div class="rectangle albums"></div>
+                        <div class="rectangle albums"></div>
+                        <div class="rectangle albums"></div>
+                        <div class="rectangle albums"></div>
+                    </div>
+                    <div class="row-view albums">
+                        <div class="line albums"></div>
+                        <div class="line albums"></div>
+                        <div class="line albums"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper album column">
+                <div class="thumb" position="relative">
+                    <img src="" alt="" class="thumb-img">
+                    <div class="info album">
+                        <div class="title"></div>
+                        <div class="album-creator"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="photos-page" style="display: none;">
+            <div class="header photos">
+                <div class="navigation">
+                    <div class="go-back">
+                        <img src="./webassets/back arrow.png" alt="back arrow" class="back arrow">
+                        <button class="back">povratak</button>
+                    </div>
+                    <div class="header-title photos"></div>
+                    <input type="text" id="search" placeholder="Pretraži" title="Upiši ime slike">
+                </div>
+                <div class="view-buttons photos">
+                    <div class="column-view photos">
+                        <div class="rectangle photos"></div>
+                        <div class="rectangle photos"></div>
+                        <div class="rectangle photos"></div>
+                        <div class="rectangle photos"></div>
+                    </div>
+                    <div class="row-view photos">
+                        <div class="line photos"></div>
+                        <div class="line photos"></div>
+                        <div class="line photos"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wrapper photos column"></div>
+        </div>
+
+        <div class="popup">
+            <div class="popup-content">
+                <p class="popup-text">Da li si siguran da želiš da obrišeš?</p>
+                <div class="popup-buttons-container">
+                    <span class="popup-buttons da">Da</span>
+                    <span class="popup-buttons ne">Ne</span>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <div class="img-container">
+        <span onclick="this.parentElement.style.display='none'" class="close-btn">&times;</span>
+        <img src="./webassets/left arrow.png" alt="left arrow" class="left arrow">
+        <img class="expandedImg">
+        <img src="./webassets/right arrow.png" alt="right arrow" class="right arrow">
+    </div>
+
+    <script src="scripts/main.js"></script>
+</html>

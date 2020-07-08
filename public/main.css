@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+}
+.form-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 540;
+    height: 540;
+}
+.ulogujes-se {
+    float: left;
+    color: #000000;
+    font-family: "Helvetica Neue";
+    font-size: 64px;
+    font-weight: 100;
+    letter-spacing: 0;
+    line-height: 78px;
+  }
+
+input[type=text],
+input[type=email] {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    color: #000000;
+    font-family: "Helvetica Neue";
+    font-size: 32px;
+    font-weight: 100;
+    letter-spacing: 0;
+    line-height: 39px;
+    border: none;
+    border-bottom: 2px solid #000000;
+    padding-top: 35px;
+}
+
+#submit-button {
+    height: 81px;
+    width: 540px;
+    background-color: #FFC23B;
+    color: #FFFFFF;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 7.27px;
+    line-height: 25px;
+    margin-top: 35px;
+    border: none;
+}
