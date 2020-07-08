@@ -173,6 +173,9 @@ const createPhotosPage = that => {
     // scroll the page to the top
     window.scrollTo(0, 0);
 
+    // change the title of the page
+    document.title = "Slike";
+
     // get the album id that we are viewing
     let albumId = parseInt(that.classList[1].split('-')[2]);
 
