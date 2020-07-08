@@ -10,7 +10,7 @@
             <label for="loginform" class="ulogujes-se" >Uloguješ se</label>
             <form id="login-form" action="albumi.html" name="loginform">
                 <input id="user-name" type="text" name="username" placeholder="korisničko ime" required>
-                <input id="user-email" type="email" name="useremail" placeholder="email" required>
+                <input id="user-email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" type="email" name="useremail" placeholder="email" required>
                 <button id="submit-button" type="submit" value="Klikni">KLIKNI</button>
             </form>
         </div>
